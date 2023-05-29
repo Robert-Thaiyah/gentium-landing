@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Gentium Landing Page</title>
+</head>
+<body class="bg-agency-grey font-mulish text-white scroll-smooth">
+
+    <!-- header section -->
+   <header class="flex items-center justify-between max-w-7xl mx-auto p-8" id="home">
+    <div>
+        <a href="#home" class="text-4xl flex font-bold">Gentium.</a>
+    </div>
+
+    <nav class="hidden md:flex">
+        <ul class="flex gap-8">
+            <a class="hover:text-agency-red transition-colors duration-300"href="#home"><li>Home</li></a>
+            <a class="hover:text-agency-red transition-colors duration-300" href="#services"><li>Services</li></a>
+            <a class="hover:text-agency-red transition-colors duration-300"href="#works"><li>Works</li></a>
+            <a class="hover:text-agency-red transition-colors duration-300"href="#about"><li>About</li></a>
+            <a class="hover:text-agency-red transition-colors duration-300"href="#client"><li>Client</li></a>
+            <a class="hover:text-agency-red transition-colors duration-300"href="#blog"><li>Blog</li></a>
+            <a class="hover:text-agency-red transition-colors duration-300"href="#contact"><li>Contact</li></a>
+           
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                  </svg>
+                  
+            </li>
+        </ul>
+    </nav>
+    <button class="btn block md:hidden hover:rotate-90 transition-all"> <i class="fa-solid fa-bars text-3xl btn"></i></button>
+
+   </header>
+
+   <!-- mobile menu -->
+   <div class="mobile-nav hidden p-5">
+    <ul class="grid gap-6 ">
+        <a class="hover:text-agency-red transition-colors duration-300"href="#home"><li>Home</li></a>
+        <a class="hover:text-agency-red transition-colors duration-300" href="#services"><li>Services</li></a>
+        <a class="hover:text-agency-red transition-colors duration-300"href="#works"><li>Works</li></a>
+        <a class="hover:text-agency-red transition-colors duration-300"href="#about"><li>About</li></a>
+        <a class="hover:text-agency-red transition-colors duration-300"href="#client"><li>Client</li></a>
+        <a class="hover:text-agency-red transition-colors duration-300"href="#blog"><li>Blog</li></a>
+        <a class="hover:text-agency-red transition-colors duration-300"href="#contact"><li>Contact</li></a>
+    </ul>
+   </div>
+
+   <main>
+
+    <!-- hero area -->
+    <section class="py-10 mt-20 bg-no-repeat bg-cover bg-center overflow-hidden" id="#home">
+        <!-- title -->
+        <div class="mt-10 max-w-7xl mx-auto p-10">
+            <h1 class="font-bold text-5xl text-left">We're a Digital Agency</h1>
+            <button class="mt-10 py-4 px-10 rounded-md border-2 border-agency-red">Getting Started</button>
+            <!-- <img src="https://images.pexels.com/photos/1256884/pexels-photo-1256884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""> -->
+        </div>
+
+        <!-- cards container-->
+
+        <div class=" mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative max-w-7xl mx-auto p-10">
+                <!-- card 1 -->
+
+                <div class="flex flex-col lg:mb-16 bg-agency-red border-0 w-full">
+                    <div class="p-6 flex flex-col items-start">
+                        <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-20 h-20">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25M9 16.5v.75m3-3v3M15 12v5.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                              </svg>  
+                        </div>
+                        <h3 class="mt-5 mb-2 font-bold text-lg ">Future Vision</h3>
+                        <hr class="bg-white my-2" width="40px">
+                        <p class="mb-2 text-bookmark-grey font-light items-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui tempore corporis praesentium, atque quas nihil repudiandae dolore autem magni fuga enim id voluptate velit quae aut! Aspernatur, praesentium saepe! Temporibus?</p>
+                    </div>
+                </div>
+
+
+                <!-- card 2 -->
+
+                <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-agency-charcoal border-0">
+                    <div class="p-6 flex flex-col items-start">
+                        <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-20 h-20 text-agency-red">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+                              </svg>
+                               
+                        </div>
+                        <h3 class="mt-5 mb-2 font-bold text-lg ">Product Design</h3>
+                        <hr class="bg-white" width="40px">
+                        <p class="mb-2 text-bookmark-grey font-light items-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui tempore corporis praesentium, atque quas nihil repudiandae dolore autem magni fuga enim id voluptate velit quae aut! Aspernatur, praesentium saepe! Temporibus?</p>
+                    </div>
+                </div>
+
+                <!-- card 1 -->
+
+                <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-agency-charcoal border-0">
+                    <div class="p-6 flex flex-col items-start">
+                        <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-20 h-20 text-agency-red">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+                              </svg>
+                               
+                        </div>
+                        <h3 class="mt-5 mb-2 font-bold text-lg ">Inovative Solutions</h3>
+                        <hr class="bg-white my-2" width="40px">
+                        <p class="mb-2 text-bookmark-grey font-light items-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui tempore corporis praesentium, atque quas nihil repudiandae dolore autem magni fuga enim id voluptate velit quae aut! Aspernatur, praesentium saepe! Temporibus?</p>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="max-w-7xl m-auto p-5" id="services">
+
+        <!-- title -->
+        <div>
+           <h2 class="text-3xl font-bold text-center md:text-left">Services</h2>
+        <p class="text-agency-red uppercase text-center md:text-left mt-2 font-oswald">we work with you, not for you</p> 
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-6 p-5">
+
+        <!-- card 1 -->
+            <div class="flex p-6 flex-1 items-center justify-between rounded-md shadow-md bg-agency-card/20">
+                <p>Digital Strategy</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hover:translate-x-3 transition-all duration-100">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg> 
+            </div>
+
+            <div class="flex p-6 flex-1 items-center justify-between rounded-md shadow-md bg-agency-card/20">
+                <p>UX Design</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hover:translate-x-3 transition-all duration-100">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg> 
+            </div>
+
+            <div class="flex p-6 flex-1 items-center justify-between rounded-md shadow-md bg-agency-card/20">
+                <p>Product Design</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hover:translate-x-3 transition-all duration-100">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg> 
+            </div>
+
+            <div class="flex p-6 flex-1 items-center justify-between rounded-md shadow-md bg-agency-card/20">
+                <p>Content Strategy</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hover:translate-x-3 transition-all duration-100">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg> 
+            </div>
+
+            <div class="flex p-6 flex-1 items-center justify-between rounded-md shadow-md bg-agency-card/20">
+                <p>Design and Concept</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hover:translate-x-3 transition-all duration-100">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg> 
+            </div>
+
+            <div class="flex p-6 flex-1 items-center justify-between rounded-md shadow-md bg-agency-card/20">
+                <p>Social Media</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hover:translate-x-3 transition-all duration-100">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg> 
+            </div>
+
+            <div class="flex p-6 flex-1 items-center justify-between rounded-md shadow-md bg-agency-card/20">
+                <p>Media Planning</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hover:translate-x-3 transition-all duration-100">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg> 
+            </div>
+
+            <div class="flex p-6 flex-1 items-center justify-between rounded-md shadow-md bg-agency-card/20">
+                <p>Brand Identity</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hover:translate-x-3 transition-all duration-100">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg> 
+            </div>
+
+            <div class="flex p-6 flex-1 items-center justify-between rounded-md shadow-md bg-agency-card/20">
+                <p>SEO Optimization</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hover:translate-x-3 transition-all duration-100">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg> 
+            </div>
+
+            
+
+        </div>
+        
+    </section>
+
+    <!-- works -->
+
+    <section class="mt-10 py-10 max-w-7xl m-auto p-8" id="works">
+        <!-- title -->
+        <div class="flex items-center justify-between flex-wrap">
+            <div>
+                <hr class="hidden md:block text-red-700 mb-10" width="40px">
+                <h2 class="text-3xl font-bold">Works.</h2>
+         <p class="text-agency-red uppercase mt-5 font-oswald tracking-wider">things we've made</p>  
+            </div>
+            <!-- button -->
+         <div>
+            <button class="mt-10 py-4 px-10 rounded-md border-2 border-agency-red">View All</button>
+         </div>
+         </div>
+
+
+         <!-- image section  -->
+
+         <!-- container -->
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
+
+            <!-- image-1 -->
+
+           
+            <div>
+                <img class="object-contain h-96" src="https://images.pexels.com/photos/13600672/pexels-photo-13600672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="flowers">
+            </div>
+
+            <div>
+                <img class="object-contain h-96" src="https://images.pexels.com/photos/2092075/pexels-photo-2092075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="flowers">
+            </div>
+
+            <div>
+                <img class="object-contain h-96 grayscale" src="https://images.pexels.com/photos/6768203/pexels-photo-6768203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="grayscale w-1/2"  alt="flowers">
+            </div>
+
+        
+         </div>
+    </section>
+
+
+    <!-- about section -->
+
+    <section class="mt-10 py-10 max-w-7xl mx-auto p-8"  id="about">
+
+        <!-- title -->
+        <div class="flex items-center justify-between flex-wrap">
+            <div>
+                <h2 class="text-3xl font-bold">About.</h2>
+         <p class="text-agency-red uppercase mt-5 font-oswald tracking-wider">things we've made</p>  
+            </div>
+            <!-- button -->
+         <div class="max-w-2xl"
+            <p class="font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis harum ex sequi voluptatem ducimus quisquam similique adipisci quas, placeat, dolorem amet eum praesentium. Ea officia unde omnis enim corporis quod.</p>
+         </div>
+         </div>
+
+
+         <!-- container -->
+
+         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-20">
+
+            <!-- image-1 -->
+            <div class="flex rounded-xl overflow-hidden relative">
+                <img class="object-none grayscale" src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="absolute bottom-10 left-10">
+                    <p class="font-bold text-2xl">Teamwork</p>
+                    <p class="font-light">Committed and Creative</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center justify-center gap-6">
+                <div class="relative">
+                    <img class="grayscale w-3/4" src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+                    <div class="absolute bottom-10 left-10">
+                        <p class="font-bold text-2xl">Philosophy</p>
+                        <p class="font-light">Trust Pays Off</p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img class="grayscale w-3/4" src="https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <div class="absolute bottom-10 left-10">
+                        <p class="font-bold text-2xl">Office</p>
+                        <p class="font-light">Berlin, Germany</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+         </div>
+
+
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20 gap-8">
+            <div>
+                <h4 class="font-bold text-2xl">Who we are</h4>
+                <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi saepe nobis labore consequatur libero debitis nihil quisquam doloribus non! Repellat possimus necessitatibus quod voluptatibus delectus ipsum reiciendis eos mollitia tempore.</p>
+            </div>
+
+            <div>
+                <h4 class="font-bold text-2xl">Our Philosophy</h4>
+                <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi saepe nobis labore consequatur libero debitis nihil quisquam doloribus non! Repellat possimus necessitatibus quod voluptatibus delectus ipsum reiciendis eos mollitia tempore.</p>
+            </div>
+
+            <div>
+                <h4 class="font-bold text-2xl">How we work</h4>
+                <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi saepe nobis labore consequatur libero debitis nihil quisquam doloribus non! Repellat possimus necessitatibus quod voluptatibus delectus ipsum reiciendis eos mollitia tempore.</p>
+            </div>
+            
+         </div>
+
+    </section>
+
+
+    <!-- testimonials -->
+    <section class="py-10 mt-20 max-w-7xl mx-auto p-8" id="client">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <!-- image -->
+            <div class="rounded-md">
+                <img class="object-contain" src="https://images.pexels.com/photos/11537400/pexels-photo-11537400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
+
+            <div class="flex-col max-w-2xl">
+                <div>
+                    <hr class=" border-agency-red mb-3" width="40px">
+                    <h2 class="text-5xl font-bold">What Client's Say.</h2>
+             <p class="text-agency-red uppercase mt-5 font-oswald tracking-wider">things we've made</p> 
+             <p class="mt-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia hic rerum quas, ea non eligendi laboriosam minima, quam assumenda eius possimus atque, repudiandae aut dignissimos deleniti! Dolorem totam facilis voluptatibus.
+             Veritatis magnam excepturi, accusantium, rerum eum hic, eaque nemo culpa quia tenetur velit nulla fugit! Excepturi maxime laudantium ipsum quisquam impedit officia doloremque ipsam harum, ratione eos blanditiis deserunt consequuntur.</p> 
+                </div>
+                <hr class=" border-agency-red my-4" width="40px">
+
+                <p class="uppercase font-oswald">Aaron Smith, ux designer</p>
+
+                <div>
+                        <!-- logos go here -->
+                        <i class="fa-brands fa-facebook-f mt-3" style="color:#ffffff"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- news -->
+
+    <section class="mt-10 py-10 " id="blog">
+        <div class="flex flex-col items-center justify-center">
+            <h2 class="text-3xl font-bold">Latest News.</h2>
+            <p class="text-agency-red uppercase mt-5 font-oswald tracking-wider">check out some of our thinking</p> 
+     
+        </div>
+
+        <div class="flex flex-1 flex-wrap gap-6 mt-10 items-center justify-center">
+
+            <div class="relative text-center">
+                <div class="absolute bottom-10 left-10">
+                    <p class="font-bold text-2xl">Careers</p>
+                    <p class="font-light">Winning tactics for a new digital agency</p>
+                </div>
+                <img src="https://images.pexels.com/photos/5685962/pexels-photo-5685962.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" width="400">
+            </div>
+
+            <div class="relative text-center">
+                <div class="absolute bottom-10 left-10">
+                    <p class="font-bold text-2xl">Design / UX</p>
+                    <p class="font-light">How to drive your customer experience</p>
+                </div>
+                <img src="https://images.pexels.com/photos/5685962/pexels-photo-5685962.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" width="400">
+            </div>
+
+            <div class="relative text-center">
+                <div class="absolute bottom-10 left-10">
+                    <p class="font-bold text-2xl">Careers</p>
+                    <p class="font-light">How to be more productive using design</p>
+                </div>
+                <img src="https://images.pexels.com/photos/5685962/pexels-photo-5685962.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" width="400">
+            </div>
+            
+            </div>
+            
+            
+            
+    </section>
+
+
+    <!-- lets talk -->
+    <section class="py-10 mt-10 max-w-7xl m-auto p-8" id="contact">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
+            <div class="flex  gap-10">
+            <!-- icons -->
+            <i class="fa-brands fa-facebook-f border-2 rounded-full p-3 border-agency-red" style="color:#ffffff"></i>
+            <i class="fa-brands fa-twitter border-2 rounded-full p-3 border-agency-red" style="color:#ffffff"></i>
+            <i class="fa-brands fa-instagram border-2 rounded-full p-3 border-agency-red" style="color:#ffffff"></i>
+            <i class="fa-brands fa-github border-2 rounded-full p-3 border-agency-red" style="color:#ffffff"></i>
+        </div>
+
+        <div class="flex">
+            <h1 class="text-5xl font-bold">Let's Talk</h1>
+        </div>
+
+        <div class="flex">
+            <button class="mt-10 py-4 px-10 rounded-md border-2 border-agency-red">Make an Enquiry!</button>
+        </div>
+        </div>
+
+        <div class="flex flex-1 gap-3 items-center justify-around mt-10">
+            <div class="flex flex-col gap-2 text-center">
+                <p>Berlin</p>
+                <p>+564846586</p>
+            </div>
+            <div class="flex flex-col text-center">
+                <p>Melbourne</p>
+                <p>+564846586</p>
+            </div>
+        </div>
+        
+    </section>
+   </main>
+
+   <footer class="mt-10 py-10 grid grid-cols-1 md:grid-cols-2 max-w-7xl m-auto p-8">
+    <div>
+        <p>2023 Gentium. All rights Reserved</p>
+    </div>
+
+    <nav class="grid">
+        <ul class="flex gap-8">
+            <a href="#"><li>Terms of Use</li></a>
+            <a href="#"><li>Privacy Policy</li></a>
+            <a href="#"><li>Cookie Policy</li></a>
+        </ul>
+    </nav>
+   </footer>
+
+   <script src="js/app.js"></script>
+</body>
+</html>
