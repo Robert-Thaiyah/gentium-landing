@@ -30,13 +30,13 @@ The site will undergo changes as I learn new technologies.
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/Robert-Thaiyah/personal-portfolio)
-- Live Site URL: [Livesite URL](https://interio-landing.netlify.app/)
+- Solution URL: [Github Repo](https://github.com/Robert-Thaiyah/gentium-landing)
+- Live Site URL: [Livesite URL](https://gentium-agency.netlify.app/)
 
 ## My process
 
 - First I sought some samples from Dribbble but decided on using a simple approach on my profile, having only the skills, portfolio and contact pages.
-- Then I built a shell uisng HTML and Tailwind.
+- Then I built a shell using HTML and Tailwind.
 - Added some small functionality using Javascript.
 ### Built with
 
