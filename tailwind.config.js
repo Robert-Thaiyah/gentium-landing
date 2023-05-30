@@ -13,7 +13,7 @@ module.exports = {
       fontFamily:{
         'mulish': ['Mulish', 'sans-serif'],
         'oswald': ['Oswald', 'sans-serif'],
-      }
+      },
     },
   },
   plugins: [],
